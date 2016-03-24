@@ -1,7 +1,9 @@
 Ruby on rails tuntikirjanpito
 
-21.03.2015
+21.03.2016
 2h
 Generoitu tarvittavat tietokannat hunteille, eli sovelluksen pohja luotu. Aloitettu selainsovellus, näkymät luotu scaffoldeilla ja sovelluksen "pohja" perustettu.
 
-
+24.03.2016
+3h
+Perustettu käyttäjätietokanta, sessioihin talletettaminen. Sovellus siirretty Herokuun, toiminta varmistettu. Sovellusmääritelmä kirjoitettu, Travis pistetty käyntiin. 
