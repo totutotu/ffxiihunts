@@ -1,0 +1,19 @@
+Määritelmä:
+
+Sovellus on Final Fantasy XII -pelin huntien suorittamisen apuväline niin suorittamiseen kuin kirjanpitoonkin.
+
+Sovelluksen tarkoitus on tarjota informaatiota käyttäjälle hunteista, informaatiota niistä. Hunteja voi hakea niiden tason ja nimen perusteella.
+
+Sovellukseen kuuluu kirjautuminen ja käyttäjän luominen.
+
+Kirjautunut käyttäjä voi tallettaa sovellukseen omia vastaanotettuja ja suoritettuja huntejaan. Käyttäjä voi tarkastella omia vastaanotettuja suoritettavia hunteja, suositeltua seuraavaa suoritettavaa sekä suoritettuja.
+
+Sovellus toimii herokussa.
+
+Mahdollisia lisäominaisuuksia:
+
+leaderboardit
+kuvat hunteihin
+
+
+Sidenote: teen sovelluksen puhtaasti omia tarkoituksiani varten, ja 'raainpana' sen laajuus olisi tosi niukka. Pyrin lisäilemään ominaisuuksia ihan vain puhtaasti oppimista ja tätä kurssia varten.

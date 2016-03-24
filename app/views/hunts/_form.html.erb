@@ -1,0 +1,34 @@
+<%= form_for(@hunt) do |f| %>
+  <% if @hunt.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@hunt.errors.count, "error") %> prohibited this hunt from being saved:</h2>
+
+      <ul>
+      <% @hunt.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :steal %><br>
+    <%= f.text_field :steal %>
+  </div>
+
+  <div class="field">
+    <%= f.label :strategy %><br>
+    <%= f.text_field :strategy %>
+  </div>
+  <div class="field">
+    <%= f.label :level %><br>
+    <%= f.text_field :level %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

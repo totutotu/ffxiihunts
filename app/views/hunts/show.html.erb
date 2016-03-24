@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @hunt.name %>
+</p>
+
+<p>
+  <strong>Steal:</strong>
+  <%= @hunt.steal %>
+</p>
+
+<p>
+  <strong>Strategy:</strong>
+  <%= @hunt.strategy %>
+</p>
+
+<p>
+  <strong>Level:</strong>
+  <%= @hunt.level %>
+</p>
+
+<%= link_to 'Edit', edit_hunt_path(@hunt) %> |
+<%= link_to 'Back', hunts_path %>
